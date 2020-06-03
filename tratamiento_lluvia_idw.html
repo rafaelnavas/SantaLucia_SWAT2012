@@ -1896,7 +1896,7 @@ $(document).ready(function () {
       <a href="calibracion_5est.html">Esquema 2: Calibración con 5 estaciones</a>
     </li>
     <li>
-      <a href="produccion_de_sedimentos_esquema2.html">Produccion de sedimentos (Esquema 2) </a>
+      <a href="producción_de_sedimentos_esquema2.html">Produccion de sedimentos (Esquema 2) </a>
     </li>
   </ul>
 </li>
@@ -1908,10 +1908,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="teoria_zonas_buffer.html">Modelación de zonas buffer</a>
+      <a href="teoria_zonas_buffer.html">Aproximacion mediante FILTER_RATIO</a>
     </li>
     <li>
-      <a href="estado_actual_sed_pt.html">Sedimento y Fósforo: Estado actual</a>
+      <a href="teoria_zonas_buffer_resultados.html">Resultados: zonas buffer</a>
+    </li>
+    <li>
+      <a href="filterw_resultados.html">Aproximación mediante FILTERW</a>
     </li>
   </ul>
 </li>
@@ -1941,7 +1944,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Última actualización: 27 mayo 2020</p>
+<p>Última actualización: 03 junio 2020</p>
 <p>Se seleccionaron 20 estaciones pluviométricas en el período 2009-2015. Los resultados de la validación cruzada por el inverso de la distancia y por estación se presenta en la siguiente tabla:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">xval =<span class="st"> </span><span class="kw">readRDS</span>(<span class="st">&quot;~/R_projects/SWAT_calibration_ETmodis/resultados/lluvia/xval_stat_2009_2015.RDS&quot;</span>)</a>
 <a class="sourceLine" id="cb1-2" title="2"><span class="kw">kable</span>(xval, </a>
